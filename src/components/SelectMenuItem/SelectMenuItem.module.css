@@ -1,0 +1,61 @@
+.selectMenuItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+}
+
+.selectMenuItem:not(:last-child) {
+  border-bottom: 1px solid var(--color--gray-100);
+  padding-bottom: 14px;
+}
+
+.selectMenuItemLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.selectMenuItemLeft > img {
+  margin-right: 9.5px;
+}
+
+.selectMenuItemLabel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.menuCheckbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.menuCheckbox > input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.menuCheckbox > input:checked + span {
+  border: 2px solid #0049d9;
+  background: #005ffd url(../../assets/icons/check_mark.svg) center no-repeat;
+}
+
+.menuCheckbox > input:focus + span {
+  border: 2px solid #0049d9;
+}
+
+.menuCheckbox > input:checked:focus + span {
+  border: 2px solid #fff;
+}
+
+.menuCheckbox > span {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--color--gray-400);
+  border-radius: var(--border--radius-6);
+  margin-right: 16px;
+}

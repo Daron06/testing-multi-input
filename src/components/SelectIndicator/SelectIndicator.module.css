@@ -1,0 +1,14 @@
+.selectIndicator {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.selectIndicatorDropdown {
+  display: flex;
+  transition: color 150ms ease 0s;
+  color: rgb(204, 204, 204);
+  padding: 8px;
+}

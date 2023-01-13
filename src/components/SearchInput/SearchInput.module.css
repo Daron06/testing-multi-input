@@ -1,0 +1,24 @@
+.selectMenuSearch {
+  display: flex;
+  align-items: center;
+
+  background: var(--color--gray-100);
+  border-radius: var(--border--radius-10);
+  padding: 10px;
+  margin: 16px 16px 0 16px;
+}
+
+.selectMenuSearch > input {
+  outline: none;
+  border: none;
+  margin-left: 9px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: inherit;
+  width: 100%;
+}
+
+.selectMenuSearch > input::placeholder {
+  color: var(--color--gray-400);
+}
