@@ -1,3 +1,3 @@
 # Getting Started with Create React App
 
-Open [https://testing-multi-input.vercel.app/](testing-multi-input)
+Open [testing-multi-input](https://testing-multi-input.vercel.app/)
